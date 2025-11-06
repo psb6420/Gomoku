@@ -1,4 +1,5 @@
-https://psb6420.github.io/Gomoku/\n
+https://psb6420.github.io/Gomoku/
+
 https://codepen.io/psb6420/pen/LEGomNw
 
 재시작시 설치한 돌 삭제
