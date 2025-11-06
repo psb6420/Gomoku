@@ -1,0 +1,82 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflo
+}
+
+#bdp {
+    margin-top: 50px;
+    float: right;
+    position: relative;
+    left: -50%;
+    height: 100%;
+    width: 70rem;
+    box-sizing: border-box;
+    transform: translateX(50%);
+    max-width:1230px;
+}
+
+#bdp .galo {
+    height: 5px;
+    margin-bottom: 4.5%;
+    width: 70rem;
+    background-color: black;
+}
+
+#bdp .galo > div {
+    float: left;
+    margin-right: 1rem;
+    height: 100%;
+    width: 6px;
+    margin-right: 4.99%;
+    position: relative;
+}
+
+#bdp .galo > div:last-child {
+    margin: 0;
+}
+
+#bdp .selo {
+    transform: translatex(-50%);
+    left: 50%;
+    position: absolute;
+    height: 3.5rem;
+    width: 3px;
+    background-color: black;
+}
+
+#bdp .galo > div:last-child .selo {
+    left: 80%;
+}
+
+#bdp .galo > div:first-child .selo {
+    left: 20%;
+    transform: translatex(-50%);
+}
+
+#bdp .galo:last-child > div .selo {
+    display: none;
+}
+
+#bdp .button {
+    display: block;
+    transform: translatex(-40%) translatey(-40%);
+    z-index: 1;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.restart, .omok {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #dfdfdf;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 30px;
+}
